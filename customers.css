@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav {
+    width: 100%;
+    /* height: 15vh; */
+    background: rgb(247, 243, 243);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0%;
+  }
+  
+.logo {
+  width: 15%;
+  text-align: center;
+}
+.logo1 {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* width: 15%; */
+  font-weight: 600;
+  font-size: 15px;
+  background-color: rgb(105, 22, 239);
+  padding: 12px;
+  text-align: center;
+  /* margin-top: auto; */
+  width: 160px;
+  border-radius: 10px;
+}
+.logo1 a {
+  color: white;
+  text-decoration: none;
+}
+.logo p {
+  font-size: 12px;
+  color: grey;
+}
+.logo a{
+  font-size: 12px;
+  color: grey;
+  text-decoration: none;
+}
+.logo a h1{
+  color: black;
+  font-size: 24px;
+}
+.menu {
+  width: 45%;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 45px;
+  font-weight: 600;
+}
+.menu a {
+  color: rgb(99, 99, 99);
+  text-decoration: none;
+}
+.menu a:hover{
+  color: black;
+}
+.MainDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    /* background-color: red; */
+}
+.ParaCon{
+    /* margin-top: 180px; */
+    margin-left: 150px;
+    font-weight: 800;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+}
+.ContantDiv{
+    margin-top: 20px;
+    margin-left: 150px;
+    font-family: "AR One Sans", sans-serif;
+    color: rgb(99, 99, 99);
+}
+.ContantDiv1{
+    margin-left: 150px;
+    font-family: "AR One Sans", sans-serif;
+    color: rgb(99, 99, 99);
+    margin-top: 5px;
+}
+.ImgHeart{
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 50px;
+}
+.ImgHeart1{
+  border: 1px solid rgb(125, 122, 122);
+  /* margin: 70px; */
+  width: 200px;
+  padding: 13px;
+  height: 105px;
+  box-shadow: 12px 12px 25px rgb(97, 97, 97);
+}
+.ImgLogo{
+    /* width: 50%; */
+}
+.ImgLogo1{
+    /* width: 50%; */
+    /* display: flex; */
+    /* border: 2px solid black; */
+    /* height: 300px; */
+    /* margin-top: 150px; */
+    display: grid;
+  grid-template-columns: auto auto auto;
+}
+.ImgLogoWid{
+    width: 16%;
+    margin: 12px;
+   
+}
+.MainDiv1{
+  /* justify-content: center; */
+  text-align: center;
+}
+.ContDiiv{
+  color:rgb(105, 22, 239) ;
+  font-family: "AR One Sans", sans-serif;
+  font-weight: 560;
+  font-size: 25px;
+  margin-top: 60px;
+}
+.FontDiiv{
+  font-family: "AR One Sans", sans-serif;
+  font-weight: 560;
+  font-size: 20px;
+  margin-top: 10px ;
+}
+.FontDiivStl{
+  width: 35%;
+  margin-top: 10px;
+  margin-left: 30em;
+  font-family: "AR One Sans", sans-serif;
+}
+.Imgcustlogo{
+  width: 60px;
+}
+.BorderRad{
+   /* border: 2px solid black;   */
+   background-color: white;
+   height: 40px;
+   border-radius: 60px 40px ;
+   justify-content: center;
+   text-align: center;
+}
+.TextClr{
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 5px;
+
+}
+.Text{
+ width: 80%;
+}
+.dropbtn {
+ 
+  /* color: black; */
+  
+  /* font-size: 16px; */
+  border: none;
+  cursor: pointer;
+ 
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.Flexdiv1{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  width: 80%;
+}
+.MainDiv2{
+  display: flex;
+  margin-top: 50px;
+  background-color:rgb(75, 5, 189) ;
+  height: 200px;
+}

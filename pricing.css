@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav {
+    width: 100%;
+    /* height: 15vh; */
+    background: rgb(247, 243, 243);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0%;
+  }
+  
+.logo {
+  width: 15%;
+  text-align: center;
+}
+.logo1 {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* width: 15%; */
+  font-weight: 600;
+  font-size: 15px;
+  background-color: rgb(105, 22, 239);
+  padding: 12px;
+  text-align: center;
+  /* margin-top: auto; */
+  width: 160px;
+  border-radius: 10px;
+}
+.logo1 a {
+  color: white;
+  text-decoration: none;
+}
+.logo p {
+  font-size: 12px;
+  color: grey;
+}
+.logo a{
+  font-size: 12px;
+  color: grey;
+  text-decoration: none;
+}
+.logo a h1{
+  color: black;
+  font-size: 24px;
+}
+.menu {
+  width: 45%;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 45px;
+  font-weight: 600;
+}
+.menu a {
+  color: rgb(99, 99, 99);
+  text-decoration: none;
+}
+.menu a:hover{
+  color: black;
+}
+
+  .headline1 {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .h1class {
+    margin-top: 100px;
+    font-weight: 400;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .h2class {
+    /* margin-top: 10px; */
+    font-weight: 100;
+    line-height: 2.7;
+    font-family: "AR One Sans", sans-serif;
+  }
+  .h3class {
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .h4class {
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .headline2 {
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(223, 236, 248);
+    padding: 10px 15px;
+    width: 80%;
+    margin: auto;
+  }
+  .headline3 {
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(223, 236, 248);
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 80%;
+    padding: 10px 15px;
+  }
+  .headline4 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(223, 236, 248);
+    margin-left: 10%;
+    width: 80%;
+    padding: 10px 15px;
+  }
+  .classh2 {
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .classp {
+    margin-top: 15px;
+    font-family: "AR One Sans", sans-serif;
+    height: 60px;
+  }
+  .classp1 {
+    margin-top: 10px;
+    font-family: "AR One Sans", sans-serif;
+    /* height: 60px; */
+  }
+  .classp2 {
+    margin-top: 10px;
+    font-family: "AR One Sans", sans-serif;
+  }
+  .fleximgBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .fleximgBox1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .fleximgBox2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .fleximgBox6{
+    /* display: flex; */
+    background-color: rgb(4, 36, 61);
+    width: 100%;
+    height: 700px;
+    margin-top: 70px;
+  }
+  .FooterFirstcomp{
+    display: flex;
+  }
+  .FooterFirstcomp1{
+    display: flex;
+    margin-top: 3em;
+    margin-left: 37px;
+  }
+  .LastLinkBar{
+    color: rgb(197, 194, 194);
+    font-family: "AR One Sans", sans-serif;
+    font-size: 14px;
+  }
+  .imgContainer2{
+    display: flex;
+    margin-left: 42em;
+    
+  }
+  .LogoImg{
+    margin-left: 20px;
+  }
+  hr{
+    width: 90%;
+    margin-left: 37px;
+    color: rgb(124, 123, 123);
+    height: 1px;
+  
+  }
+  .padd{
+    display: flex;
+    width: 50%;
+    /* border: 2px solid rgb(188, 26, 26); */
+   }
+   .headclass11{
+    width: 31%;
+    color: rgb(197, 194, 194);
+    margin-top: 50px;
+    padding-left: 40px;
+  }
+  .headclass12{
+    width: 30%;
+    color: rgb(197, 194, 194);
+    margin-top: 29px;
+  }
+  .headclass13{
+    /* margin-top: 366px;
+    margin-left: -1379px; */
+    padding: 36px;
+  }
+  .headclass14 input {
+    color: rgb(99, 99, 99);
+    padding: 22px;
+    font-size: 15px;
+  }
+  input{
+    height: 40px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid  rgb(4, 36, 61);
+  }
+  .searchbar13{
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(77, 77, 221);
+    color: white;
+    font-size: 15px;
+  }
+  .imgbox {
+    padding: 20px;
+    width: 30%;
+  }
+  .imgbox1 {
+    padding: 20px;
+    width: 30%;
+  }
+  .imgbox2 {
+    padding: 10px;
+    width: 30%;
+  }
+  .productimg {
+    width: 50px;
+  }
+  .productimg1 {
+    width: 120px;
+    margin-top: 25px;
+  }
+  .productimg2 {
+    width: 120px;
+    margin-top: 25px;
+  }
+  .productimg3 {
+    width: 150px;
+    margin-top: 20px;
+  }
+  .productimg4 {
+    width: 70px;
+  }
+  .productimg5 {
+    width: 70px;
+    margin-top: 25px;
+  }
+  .productimg6 {
+    width: 180px;
+    margin-top: 55px;
+  }
+  .headcont {
+    margin-top: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .headcont1 {
+    margin-top: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .headcont2 {
+    margin-top: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .headcont8{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    /* padding-top: 15px; */
+  }
+  .maincont {
+    margin-top: 10px;
+    font-family: "AR One Sans", sans-serif;
+    font-size: 15px;
+  }
+  .maincont1 {
+    margin-top: 10px;
+    font-family: "AR One Sans", sans-serif;
+    font-size: 15px;
+  }
+  .maincont2 {
+    margin-top: 10px;
+    font-family: "AR One Sans", sans-serif;
+    font-size: 15px;
+  }
+  .maincont9{
+    font-family: "AR One Sans", sans-serif;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  .maincont10{
+    font-family: "AR One Sans", sans-serif;
+    padding-top: 20px;
+    font-size: 14px;
+    color: white;
+    font-size: 15px;
+  }
+  .maincont11{
+    font-family: "AR One Sans", sans-serif;
+    padding-top: 20px;
+    font-size: 14px;
+   color:  rgb(197, 194, 194) ;
+  }
+  .search {
+    margin-top: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: hsl(229, 78%, 42%);
+  }
+  .search1 {
+    margin-top: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: hsl(229, 78%, 42%);
+  }
+  .search2 {
+    margin-top: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: hsl(229, 78%, 42%);
+  }
+
+  .dropbtn {
+ 
+    /* color: black; */
+    
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+   
+      color: rgb(99, 99, 99);
+      text-decoration: none;
+      font-weight: 600;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* z-index: 1; */
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  

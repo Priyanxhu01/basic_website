@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .headerImg {
+    width: 100%;
+    /* height: 100vh; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+      url("indiagate.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* position: relative; */
+  }
+  .imgDiv {
+    position: relative;
+  }
+  .mainContent {
+    position: absolute;
+    top: 50%;
+  }
+  nav {
+    width: 100%;
+    /* height: 15vh; */
+    background: rgb(247, 243, 243);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0%;
+  }
+  
+  .logo {
+    width: 15%;
+    text-align: center;
+  }
+  
+  .logo1 {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* width: 15%; */
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(105, 22, 239);
+    padding: 12px;
+    text-align: center;
+    /* margin-top: auto; */
+    width: 160px;
+    border-radius: 10px;
+  }
+  .logo1 a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo p {
+    font-size: 12px;
+    color: grey;
+  }
+  .logo a{
+    font-size: 12px;
+    color: grey;
+    text-decoration: none;
+  }
+  .logo a h1{
+    color: black;
+    font-size: 24px;
+  }
+  .menu {
+    width: 45%;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 45px;
+    font-weight: 600;
+  }
+  .menu a {
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+  }
+  .menu a:hover{
+   color: black;
+  }
+
+  .dropbtn {
+ 
+    /* color: black; */
+    
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+   
+      color: rgb(99, 99, 99);
+      text-decoration: none;
+      font-weight: 600;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* z-index: 1; */
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  width: 50%;
+  margin-left: 40vh;
+}
+.container h1{
+    text-align: center;
+}
+.container p{
+    text-align: center;
+    margin-top: 10px;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.action_page.php{
+    width: 50%;
+}
